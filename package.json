@@ -13,6 +13,7 @@
     "test:watch": "vitest --dir src/use-cases",
     "pretest:e2e": "npm run test:create-prisma-environment && npm run test:install-prisma-environment",
     "test:e2e": "vitest run --dir src/http",
+    "test:e2e:watch": "vitest --dir src/http",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui"
   },
